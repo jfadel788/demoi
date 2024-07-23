@@ -19,4 +19,6 @@ Route::get('/', function () {
 Route::get("/about",function(){
     dd("about pages");
 });
-
+Route::get("/payment",function(){
+    dd("payement page");
+});
