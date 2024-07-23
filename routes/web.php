@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    dd('welcome');
 });
-Route::get("/abut",function(){
+Route::get("/about",function(){
     dd("about pages");
 });
 
