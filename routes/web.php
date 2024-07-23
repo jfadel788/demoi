@@ -22,3 +22,9 @@ Route::get("/about",function(){
 Route::get("/payment",function(){
     dd("payement page");
 });
+Route ::get("/stocks",function(){
+    dd("stocks");
+});
+Route::get("/nurses",function(){
+    dd("nurse");
+});
